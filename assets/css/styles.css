@@ -168,7 +168,7 @@ Single styles
 
 .btn
 {
-	color: #fff !important;
+	color: #fff ;
 	background-color: royalblue;
 	border-color: #222;
 	display: inline-block;
