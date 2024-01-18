@@ -2,11 +2,6 @@
 	<head>
 		<title>HTML File for Students' Test</title>
 		<link rel="stylesheet" href="assets/css/styles.css">
-		<script src="assets/javascript/task1.js"></script>
-		<script src="assets/javascript/task2.js"></script>
-		<script src="assets/javascript/task3.js"></script>
-		<script src="assets/javascript/task4.js"></script>
-		<script src="assets/javascript/task5.js"></script>
 		
 	</head>
 	<body>
@@ -26,7 +21,12 @@
 					<li><a href="#">Nav Link 6</a></li>
 					<li><a href="#">Nav Link 7</a></li>
 					<!-- Buttons for Task 3 and Task 4 should be placed here -->
-					
+					<li><button id="changeTextButton">Change Text</button></li>
+
+					<li><button id="clearButton">Clear</button></li>
+
+
+
 				</ul>
 			</div>
 		</div>
@@ -62,18 +62,24 @@
 					<hr>
 
 					<h3>Task 1 - The Image</h3>
+
+
 					<img onClick = "functionName()" src="assets/img/compIcon.png" id="imageTask1"><br />
 					<button style="display:none" id="buttonTask1">Click Me</button>
 					<hr>
 
 
 
+
+
 					<h3>Task 2 - The Table</h3>
 					<!-- Buttons for this task should be entered before the table tag. -->
-					<button class="btn btn-danger " onclick="changeColor()" id="buttonR">Click Me</button>
-					<button class="btn btn-warning" onclick="changeColor()" id="buttonY">Click Me</button>
-					<button class="btn btn-danger" onclick="changeColor()" id="buttonG">Click Me</button>
-					
+					<button class="btn btn-danger "  id="buttonRed">Red Time!</button>
+					<button class="btn btn-warning"  id="buttonBlue">Blue Time!</button>
+					<button class="btn btn-danger"  id="buttonGreen">Green Time!</button>
+
+
+
 					<table class="table table-striped">
 						<thead>
 							<tr>
@@ -107,6 +113,7 @@
 					
 					<h3>Task 5 - Form</h3>
 					<table>
+
 						<thead>
 							<tr>
 								<th colspan="2">Please Fill Out the Form Below</th>
@@ -145,5 +152,10 @@
 				Template used for the basis of this project was obtained from "http://maxdesign.com.au/css-layouts/".  This is an example of citing your source!
 			</div>
 		</div>
+		<script src="assets/javascript/task1.js"></script>
+		<script src="assets/javascript/task2.js"></script>
+		<script src="assets/javascript/task3.js"></script>
+		<script src="assets/javascript/task4.js"></script>
+		<script src="assets/javascript/task5.js"></script>
 	</body>
 </html>
